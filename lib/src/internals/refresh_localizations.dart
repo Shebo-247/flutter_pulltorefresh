@@ -103,6 +103,7 @@ class RefreshLocalizationsDelegate
   @override
   bool isSupported(Locale locale) {
     return [
+      'ar',
       'en',
       'zh',
       'fr',
@@ -165,6 +166,42 @@ abstract class RefreshString {
 
   /// no more data text
   String? noMoreText;
+}
+
+/// Arabic
+class ArRefreshString implements RefreshString {
+  @override
+  String? canLoadingText = "اترك لتحميل المزيد";
+
+  @override
+  String? canRefreshText = "اترك للتحديث";
+
+  @override
+  String? canTwoLevelText = "اترك للدخول إلى الطابق الثاني";
+
+  @override
+  String? idleLoadingText = "اسحب لأعلى لتحميل المزيد";
+
+  @override
+  String? idleRefreshText = "اسحب لأسفل للتحديث";
+
+  @override
+  String? loadFailedText = "فشل التحميل";
+
+  @override
+  String? loadingText = "جارٍ التحميل…";
+
+  @override
+  String? noMoreText = "لا توجد بيانات إضافية";
+
+  @override
+  String? refreshCompleteText = "اكتمل التحديث";
+
+  @override
+  String? refreshFailedText = "فشل التحديث";
+
+  @override
+  String? refreshingText = "جارٍ التحديث…";
 }
 
 /// Chinese

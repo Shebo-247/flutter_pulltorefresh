@@ -3,7 +3,7 @@
  * Email: peng8350@gmail.com
  * Time:  2019-06-26 13:17
 */
-import 'package:pull_to_refresh_flutter3/pull_to_refresh_flutter3.dart';
+import 'package:flutter_pull_to_refresh_2/flutter_pull_to_refresh_2.dart';
 import 'package:flutter/widgets.dart';
 
 /// enable header link other header place outside the viewport

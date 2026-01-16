@@ -7,8 +7,8 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter/foundation.dart';
-import 'package:pull_to_refresh_flutter3/pull_to_refresh_flutter3.dart';
-import 'package:pull_to_refresh_flutter3/src/internals/slivers.dart';
+import 'package:flutter_pull_to_refresh_2/flutter_pull_to_refresh_2.dart';
+import 'package:flutter_pull_to_refresh_2/src/internals/slivers.dart';
 
 // ignore_for_file: INVALID_USE_OF_PROTECTED_MEMBER
 // ignore_for_file: INVALID_USE_OF_VISIBLE_FOR_TESTING_MEMBER
